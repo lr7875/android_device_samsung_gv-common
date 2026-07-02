@@ -24,4 +24,4 @@ DEVICE_PATH := device/samsung/gv-common
 -include $(DEVICE_PATH)/configs/board/*.mk
 
 # inherit from the proprietary version
--include vendor/samsung/gv-common/BoardConfigVendor.mk
+#-include vendor/samsung/gv-common/BoardConfigVendor.mk
